@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+  <!-- Swiper Slider CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<!-- Heder Section Start Here -->
+<header class="header">
+<div class="container">
+  <nav class="navigation">
+
+    <div class="nav-left">     
+      <div class="mobile-menu">
+        <img src="./images//icon-menu.svg" alt="">
+      </div>
+
+      <div class="logo-wrapper">
+        <img src="./images/logo.svg" alt="">
+      </div>
+
+      <div class="desktop-menus">
+        <a href="" class="menu-item">Collections</a>
+        <a href="" class="menu-item">Men</a>
+        <a href="" class="menu-item">Women</a>
+        <a href="" class="menu-item">About</a>
+        <a href="" class="menu-item">Contact</a>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <img class="cart-icon" src="./images/icon-cart.svg" alt="">
+      <img class="user-icon" src="./images/image-avatar.png" alt="">
+    </div>
+
+  </nav>
+</div>
+
+<!-- Mobile Menu Popup Start Here -->
+<div class="mobile-menus-wrapper">
+  <img class="menu-close" src="./images/icon-close.svg" alt="close icon">
+  <div class="menu-items">
+    <a href="" class="menu-item">Collections</a>
+    <a href="" class="menu-item">Men</a>
+    <a href="" class="menu-item">Women</a>
+    <a href="" class="menu-item">About</a>
+    <a href="" class="menu-item">Contact</a>
+  </div>
+</div>
+<!-- Mobile Menu Popup End Here -->
+
+
+<!-- Cart Popup Start Here -->
+<div class="cart-wrapper">
+  <div class="cart-header">
+    <h2 class="cart-title">Cart</h2>
+    <img class="cart-close" src="./images/icon-close.svg" alt="">
+  </div>
+
+  <div class="cart-items">
+
+    <div class="cart-item">
+      <img class="cart-img" src="./images/image-product-1-thumbnail.jpg" alt="">
+
+      <div class="cart-info">
+        <span>Fall Limited Edition Sneakers</span>
+        <span> $125.00 x 3 $250.00</span>
+      </div>
+
+      <img class="cart-del" src="./images/icon-delete.svg" alt="">
+    </div>
+  </div>
+
+  <div class="cart-items">
+
+    <div class="cart-item">
+      <img class="cart-img" src="./images/image-product-1-thumbnail.jpg" alt="">
+
+      <div class="cart-info">
+        <span>Fall Limited Edition Sneakers</span>
+        <span> $125.00 x 3 $250.00</span>
+      </div>
+
+      <img class="cart-del" src="./images/icon-delete.svg" alt="">
+    </div>
+  </div>
+
+  <div class="checkout">
+    <a href="" class="checkout-btn">
+      Procced to Checkout
+    </a>
+  </div>
+
+ </div>
+<!-- Cart Popup End Here -->
+</header>
+<!-- Heder Section End Here -->
+
+<!--Product  Section Start Here -->
+<section class="product-section">
+  <div class="container padding-0">
+
+    <div class="product-row">
+      <!-- Product left column start here -->
+      <div class="product-row-left">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide">
+              <img src="./images/image-product-1.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+            
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide">
+              <img src="./images/image-product-2.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+            
+            
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide">
+              <img src="./images/image-product-3.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+            
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide">
+              <img src="./images/image-product-4.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+            
+          </div>
+          <div class="slider-btns">
+            <div class="next">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="prev">
+              <i class="ri-arrow-right-s-line"></i>
+              
+            </div>
+          </div>
+        </div>
+        <div thumbsSlider="" id="slider-thums" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide thumbnail">
+              <img src="./images/image-product-1-thumbnail.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+           
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide thumbnail">
+              <img src="./images/image-product-2-thumbnail.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide thumbnail">
+              <img src="./images/image-product-3-thumbnail.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+
+            <!-- Single Slide Start Here -->
+            <div class="swiper-slide thumbnail">
+              <img src="./images/image-product-4-thumbnail.jpg" />
+            </div>
+            <!-- Single Slide End Here -->
+           
+          </div>
+        </div>
+      </div>
+      <!-- Product left column end here -->
+
+      <!-- Product right column start here -->
+      <div class="product-row-left">
+
+        <div class="product-info">
+          <span class="product-company">Sneaker Company</span>
+          <h2 class="product-title">Fall Limited Edition Sneakers</h2>
+          <p class="product-desc">
+            These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+
+          <div class="product-prices">
+            <span class="current-price">$125.00</span>
+            <span class="discount">50%</span>
+            <span class="old-price">$250.00</span>
+          </div>
+
+          <div class="cart-area">
+          
+            <!-- Quantity Selector Start Here -->
+          <div class="quantity-selector">
+            <span class="munus">
+              <i class="ri-subtract-line"></i>
+            </span>
+            <input class="input" type="text" name="" value="0" c id="">
+            <span class="plus">
+              <i class="ri-add-line"></i>
+            </span>
+          </div>
+          <!-- Quantity Selector End Here -->
+
+          <div class="add-to-cart">
+            <a href="" class="add-to-cart-btn">
+              <i class="ri-shopping-cart-2-line"></i>
+              <span>Add to cart</span>
+            </a>
+          </div>
+
+          </div>
+
+        </div>
+      </div>
+      <!-- Product right column end here -->
+
+    </div>
+  
+  </div>
+</section>
+<!--Product  Section End Here -->
+
+
+
+
+<div class="container">
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</div>
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="./app.js"></script>
+</body>
+</html>
+
+<!--  Section Start Here -->
+<section class="">
+  <div class="container">
+  </div>
+</section>
+<!--  Section End Here -->
